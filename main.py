@@ -3,12 +3,12 @@ from pyscript import display, document
 
 
 #Variable
-footer = {'Enriquez | 10-Topaz'} #dict
+footer = {'Enriquez | 10-Topaz'} #single quotation amrks to be placed in the footer
 
-# Business Hours
+# Footer for bottom
 display(footer, target="bottom")
 
-# Order Form
+# Final form
 def studentform(e): #creating calculating functions in python
     document.getElementById("profile").innerHTML = "" #clearing the output field
 
@@ -40,6 +40,7 @@ def studentform(e): #creating calculating functions in python
 )
 
     
+
 
 
 
