@@ -3,13 +3,13 @@ from pyscript import display, document
 
 
 #Variable
-footer = {'Enriquez | 10-Topaz'} #single quotation amrks to be placed in the footer
+footer = {'Enriquez | 10-Topaz'} #single quotation marks to be placed in the footer
 
 # Footer for bottom
 display(footer, target="bottom")
 
 # Final form
-def studentform(e): #creating calculating functions in python
+def studentform(e): #creating functions in python
     document.getElementById("profile").innerHTML = "" #clearing the output field
 
     Address = document.getElementById("address").value.strip()
@@ -45,3 +45,4 @@ def studentform(e): #creating calculating functions in python
 
 
   
+
